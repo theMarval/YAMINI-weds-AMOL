@@ -6,7 +6,7 @@ let countDate = new Date('Apr 28, 2024 12:35:00').getTime();
 // let audio = document.getElementById("myAudio");
 
 function englishToDevanagari(number) {
-  const devanagariDigits = ['०', '१', '२', '३', '४', '५', '६', '७', '८', '९'];
+  const devanagariDigits = ['0', '१', '२', '३', '४', '५', '६', '७', '८', '९'];
   if (number < 10) {
     return devanagariDigits[0] + devanagariDigits[number];
   } else {
@@ -16,7 +16,7 @@ function englishToDevanagari(number) {
 
 //audio autoplay
 window.onload = function() {
-    let audio = new Audio('Gulabi Sadi Ani Lali Lal Lal (mp3cut.net).mp3')
+    let audio = new Audio('GULABI SADI.mp3')
     audio.volume = 0.8;
     audio.play();
     
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
   downloadImage.addEventListener('click', function() {
       // Create a link element
       const link = document.createElement('a');
-      link.href = "IMG-20240408-WA0013.jpg";
+      link.href = "yamini + Amol big_page-0001.jpg";
       link.download = 'Amol-weds-Yamini.jpg'; // Set the filename for download
 
       // Simulate a click on the link to trigger the download
